@@ -1,0 +1,24 @@
+﻿Сборка начата 16.12.2024 0:00:32.
+Уровень детализации журнала: Normal.     1>Проект "D:\Курсовая\UVV-2024\UVV-2024\GEN\GEN.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+       InitializeBuildStatus:
+         Создание "Debug\GEN.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "Debug\GEN.tlog\unsuccessfulbuild".
+       _MASM:
+         Assembling gen.asm...
+         cmd.exe /C "C:\Users\user\AppData\Local\Temp\tmp86a695cc1c5b4f41a3d430d1675c8ff7.cmd"
+         ml.exe /c /nologo /Zi /Fo"Debug\gen.obj" /W3 /errorReport:prompt  /Tagen.asm
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Курсовая\UVV-2024\UVV-2024\Debug\GEN.exe" /INCREMENTAL /ILK:"Debug\GEN.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Курсовая\UVV-2024\UVV-2024\Debug\GEN.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Курсовая\UVV-2024\UVV-2024\Debug\GEN.lib" /MACHINE:X86 Debug\gen.obj
+         GEN.vcxproj -> D:\Курсовая\UVV-2024\UVV-2024\Debug\GEN.exe
+       FinalizeBuildStatus:
+         Файл "Debug\GEN.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\GEN.tlog\GEN.lastbuildstate".
+     1>Сборка проекта "D:\Курсовая\UVV-2024\UVV-2024\GEN\GEN.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:00.47

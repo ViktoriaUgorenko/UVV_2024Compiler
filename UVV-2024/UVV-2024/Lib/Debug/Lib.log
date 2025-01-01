@@ -1,0 +1,36 @@
+﻿Сборка начата 14.12.2024 17:47:18.
+Уровень детализации журнала: Normal.     1>Проект "D:\Курсовая\UVV-2024\UVV-2024\Lib\Lib.vcxproj" в узле 3 (целевые объекты Rebuild).
+     1>_PrepareForClean:
+         Файл "Debug\Lib.tlog\Lib.lastbuildstate" удаляется.
+       PrepareForBuild:
+         Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+       InitializeBuildStatus:
+         Создание "Debug\Lib.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "Debug\Lib.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Yc"pch.h" /Fp"Debug\Lib.pch" /Fo"Debug\\" /Fd"D:\Курсовая\UVV-2024\UVV-2024\Debug\Lib.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt pch.cpp
+         pch.cpp
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Yu"pch.h" /Fp"Debug\Lib.pch" /Fo"Debug\\" /Fd"D:\Курсовая\UVV-2024\UVV-2024\Debug\Lib.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt Lib.cpp
+         Lib.cpp
+     1>D:\Курсовая\UVV-2024\UVV-2024\Lib\Lib.cpp(16,13): warning C4244: return: преобразование "double" в "int", возможна потеря данных
+         (компиляция исходного файла "/Lib.cpp")
+         
+       Lib:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\bin\HostX86\x86\Lib.exe /OUT:"D:\Курсовая\UVV-2024\UVV-2024\Debug\Lib.lib" /NOLOGO /MACHINE:X86 Debug\Lib.obj
+         Debug\pch.obj
+         Lib.vcxproj -> D:\Курсовая\UVV-2024\UVV-2024\Debug\Lib.lib
+       FinalizeBuildStatus:
+         Файл "Debug\Lib.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\Lib.tlog\Lib.lastbuildstate".
+     1>Сборка проекта "D:\Курсовая\UVV-2024\UVV-2024\Lib\Lib.vcxproj" завершена (целевые объекты Rebuild).
+
+Сборка успешно завершена.
+
+       "D:\Курсовая\UVV-2024\UVV-2024\Lib\Lib.vcxproj" (целевой объект Rebuild ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\Курсовая\UVV-2024\UVV-2024\Lib\Lib.cpp(16,13): warning C4244: return: преобразование "double" в "int", возможна потеря данных
+
+    Предупреждений: 1
+    Ошибок: 0
+
+Прошло времени 00:00:00.99

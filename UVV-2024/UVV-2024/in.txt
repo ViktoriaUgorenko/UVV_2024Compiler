@@ -1,0 +1,109 @@
+function int func [int a, int b]
+{
+	declare int ress = 0;
+	ress = (a + b)* 2 /2;
+	ress = ress * 2;
+	return [ress];
+}
+
+function int funcc []
+{	
+	declare int test = 3;
+	write[test]; break;
+	return[test];
+}
+procedure cyclen [int n]
+{
+	declare int i = 0;
+	write ["Counting to length: "];
+	write [n]; break;
+
+	while [i < n]
+	{
+		
+		i = i + 1;
+		write [i]; write [" "];
+	}
+	break;
+}
+
+main
+{
+	declare string start = combine ["Test Course Project ", "UVV2024"];
+	declare string startt = combine [start, "Start in 3 2 1"];
+	write [startt]; break;
+
+	write ["Numbers: "]; break;	
+    declare int bin = 1b10;
+	write [bin]; break;	
+
+	declare int oct = 0o10;
+	write [oct]; break;	
+	write ["bin - oct = "];
+
+	declare int dif = bin - oct;
+	write [dif]; break;	
+
+	declare bool booly = true;
+	write["Bool: "];
+	write[booly]; break;
+
+	declare char charr = "S";
+	write [charr]; break;
+
+	declare int exp = 2 + exponent [2, 4];
+	write ["exp[2,4] = "]; 
+	write [exp]; break;
+
+
+	if[exp ~ 16]
+	{
+		write["pow 2,4 really equal 16"]; break;
+	}
+	else{
+	
+		write["pow 2,4 not really equal 16"]; break;
+	}
+
+	declare int length = measure ["Now"];
+	write ["length: "];
+	write [length]; break;
+
+	declare int randd = randomize [1,41];
+	write ["Random: "];
+	write [randd]; break; 
+	
+	declare int kiruha = 256*160;
+	write ["Lexcomp: "];
+	write [kiruha]; break;
+		
+	
+	declare int testx = func[1,5];
+	write [testx]; break;
+	declare int testy = funcc[];
+	write [testy]; break;
+
+ 
+	declare int t = 4;
+	cyclen[t]; 
+	
+	if[t $ 10]
+	{
+		write ["End of example if <= 10"]; break;
+	}
+	else
+	{
+		write ["End of example if > 10"]; break;
+	}
+
+	declare int result = lexcomp["str1", "string"];
+	if [result $ 0]
+	{
+		write ["str1 <= string"]; break;
+	}
+	else
+	{
+		write ["str1 > string"]; break;
+	}
+
+}
